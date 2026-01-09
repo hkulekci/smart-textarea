@@ -4,14 +4,14 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/textarea-ai-complation/',
+  base: '/smart-textarea/',
   server: {
     port: 3000,
     open: true,
   },
   resolve: {
     alias: {
-      'textarea-ai-autocomplete': path.resolve(__dirname, '../src/index.ts'),
+      'smart-textarea': path.resolve(__dirname, '../src/index.ts'),
     },
   },
   build: {

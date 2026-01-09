@@ -5,7 +5,7 @@ import {
   useAutocompleteContext,
   type AnyProviderConfig,
   type ProviderType,
-} from 'textarea-ai-autocomplete';
+} from 'smart-textarea';
 
 type ConnectionStatus = 'disconnected' | 'connecting' | 'connected';
 
@@ -230,7 +230,7 @@ function CodeExample() {
   const codeSnippet = `import {
   AutocompleteProvider,
   OptimizedAutocompleteTextarea
-} from 'textarea-ai-autocomplete';
+} from 'smart-textarea';
 
 function App() {
   const [text, setText] = useState('');

@@ -1,5 +1,5 @@
 {
-  "name": "textarea-ai-autocomplete",
+  "name": "smart-textarea",
   "version": "1.0.0",
   "description": "AI-powered autocomplete for textarea inputs in React",
   "main": "dist/index.js",

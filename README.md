@@ -1,4 +1,4 @@
-# Textarea AI Autocomplete
+# Smart Textarea
 
 A React library that brings IDE-like AI-powered text completions to any textarea. Supports multiple AI providers including OpenAI, Google Gemini, OpenRouter, and local browser-based models.
 
@@ -14,7 +14,7 @@ A React library that brings IDE-like AI-powered text completions to any textarea
 ## Installation
 
 ```bash
-npm install textarea-ai-autocomplete
+npm install smart-textarea
 ```
 
 ## Quick Start
@@ -23,7 +23,7 @@ npm install textarea-ai-autocomplete
 import {
   AutocompleteProvider,
   AutocompleteTextarea
-} from 'textarea-ai-autocomplete';
+} from 'smart-textarea';
 
 function App() {
   const [text, setText] = useState('');
@@ -146,7 +146,7 @@ Plus all standard textarea attributes.
 Low-level hook for custom implementations:
 
 ```tsx
-import { useAutocomplete, useAutocompleteContext } from 'textarea-ai-autocomplete';
+import { useAutocomplete, useAutocompleteContext } from 'smart-textarea';
 
 function CustomTextarea() {
   const { provider } = useAutocompleteContext();
@@ -171,7 +171,7 @@ function CustomTextarea() {
 Access the provider context:
 
 ```tsx
-import { useAutocompleteContext } from 'textarea-ai-autocomplete';
+import { useAutocompleteContext } from 'smart-textarea';
 
 function ProviderStatus() {
   const { provider, isLoading, error, setProvider } = useAutocompleteContext();
